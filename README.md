@@ -16,15 +16,33 @@ This repository contains a Python script that extracts data from NASA Earth Data
 - Required libraries: `requests`, `beautifulsoup4`
 ## Installation
 
-1. Clone this repository to your local machine:
+Python:
 
+Python is the primary programming language for this task. Make sure you have Python installed on your system. You can download it from the official website: Python Official Website.
+Requests:
 
-2. Install the required libraries:
+The requests library is used for making HTTP requests to retrieve data from websites. You can install it using pip:
+
+pip install requests
+
+Beautiful Soup (bs4):
+
+Beautiful Soup is a Python library for web scraping purposes to pull the data out of HTML and XML files. You can install it using pip:
+
+pip install beautifulsoup4
+
+HTML Parser (lxml):
+
+Lxml is a high-performance, production-quality XML and HTML parsing library. It is required by Beautiful Soup. Install it using pip:
+
+pip install lxml
+
+and  extracted data to a CSV file. It is a built-in Python library.
+
 
 ## Usage
 
 1. Run the script:
-
 
 The script will fetch the webpage, extract the data, and save it in a CSV file named `nasa_data.csv`.
 
