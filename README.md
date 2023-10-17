@@ -3,6 +3,15 @@ This repository contains a Python script that extracts data from NASA Earth Data
 # Data Extraction from NASA Earth Data
 
 This repository contains a Python script that extracts data from NASA Earth Data's webpage [haqast-overview](https://www.earthdata.nasa.gov/learn/articles/haqast-overview).
+
+- NASA-Earth-Data-Extractor
+    - Images
+        - pie_chart.png
+    - main.py
+    - nasa_data.csv
+    - README.md
+    - LICENSE
+
 ## Prerequisites
 
 - Python 3.x
