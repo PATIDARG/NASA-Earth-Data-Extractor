@@ -20,6 +20,18 @@ This repository contains a Python script that extracts data from NASA Earth Data
 
 
 The script will fetch the webpage, extract the data, and save it in a CSV file named `nasa_data.csv`.
+
+## Data Fields
+
+The extracted data contains the following fields:
+
+- Identifier
+- Original ID
+- Sample Frequency
+- Name
+- Description
+- ...
+
 ## References
 
 - [NASA Earth Data API documentation](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/api)
